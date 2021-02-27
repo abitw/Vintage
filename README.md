@@ -1,2 +1,2 @@
 # Vintage
-Vintage Web Appliaction
+Vintage Web Application
