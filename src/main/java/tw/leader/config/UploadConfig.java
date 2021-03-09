@@ -10,6 +10,6 @@ public class UploadConfig extends WebMvcConfigurerAdapter{
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 //圖片保存地址
-        registry.addResourceHandler("/img/**").addResourceLocations("file:C:\\Users\\iii\\git\\Vintage223\\src\\main\\resources\\static\\img\\");
+        registry.addResourceHandler("/img/**").addResourceLocations("file:D:\\springboot\\Git3\\Vintage\\src\\main\\resources\\static\\img\\");
     }
 }

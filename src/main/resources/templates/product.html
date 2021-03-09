@@ -261,7 +261,7 @@
                     $("#show_leave_mag").append(
                       `<div class="co-item">
                           <div class="avatar-pic">
-                            <img src="img/product-single/${v.userPic}" alt="">
+                            <img src="img/userPic/${v.userPic}" alt="">
                               </div>
                                 <div class="avatar-text">
                                    <div class="at-rating">
@@ -1093,7 +1093,7 @@
                           var leave_content = $("#leave_content").val();
                           var star_lv_sel = $(star_lv_ele).val();
                           var product_id = productId;     //從商品載入取值
-                          var user_pic = "puipui01.png";    //我需要使用者的大頭貼LAAAAAAAAAAA
+                          var user_pic = $('#user-pic').val();    //我需要使用者的大頭貼LAAAAAAAAAAA
                           var user_email = $("#loginInfo").html();
                           var send_leave_msg = {
                         		  email:user_email,
